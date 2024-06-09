@@ -1,3 +1,14 @@
 body{
-	background: #FFA07A
+
+    overflow: hidden; /* Prevent scrolling */
+}
+.bg-primary{
+	background:#009688
+}
+.banner{
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("contacts.jpg")no-repeat center center;
+	width: 100%;
+	height:100vh;
+	color:white;
+	background-size: cover;
 }
